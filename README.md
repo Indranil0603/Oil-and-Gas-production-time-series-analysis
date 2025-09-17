@@ -1,7 +1,3 @@
-Here is a README template for your project, including instructions to add the model comparison image:
-
-***
-
 # Oil Production Forecasting Model Comparison
 
 ## Overview
@@ -26,6 +22,11 @@ The purpose is to identify the best model for predicting oil production, balanci
 - ARIMA provides a robust statistical benchmark with moderate performance.
 - Prophet is highly interpretable and fast to deploy but less accurate in complex scenarios.
 
+
+## Visualizing Model Comparison
+The image below presents the forecast vs. actual production values for each model, highlighting their relative performance over time:
+![Model Forecast Comparison](./images/model-forcast.png)
+
 ## Model Comparison Metrics
 
 | Model   | MAE     | MSE       | RMSE    | MAPE (%) | R²      |
@@ -39,6 +40,4 @@ The purpose is to identify the best model for predicting oil production, balanci
 - Use Prophet for quick deployment and stakeholder communication.
 - Use ARIMA as a reliable statistical baseline.
 
-## Visualizing Model Comparison
-The image below presents the forecast vs. actual production values for each model, highlighting their relative performance over time:
 
